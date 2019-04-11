@@ -18,7 +18,6 @@
 	background-image: url(http://static-2.akipress.org/127/.storage/limon2/images/may2015/f2657c0ddf7dad82ddebe3565b62499b.jpg);
 	background-position: right bottom;
 	background-repeat: no-repeat;
-	background-origin: ;
 	background-size: 100%;
 	margin-top: -10px;
 	margin-left: 15%;
@@ -31,7 +30,7 @@
 }
 
 .topbar {
-	padding: 10px 5px;
+	padding: 9px 5px;
 	overflow: hidden;
 	background-color: #333;
 	margin-left: 15%;
@@ -43,9 +42,10 @@
 }
 
 .topbar a {
-	padding: 10px 5px;
+	text-align: center;
+	padding: 10px 10px;
 	background-color: #333;
-	margin-left: 5px;
+	margin-left: -5px;
 	text-decoration: none;
 	color: white;
 	font-family: arial;
@@ -79,7 +79,7 @@
 	height: auto;
 	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
 }
-
+	
 .main-page-content-text {
 	color: black;
 	font-family: calibri;
@@ -93,24 +93,20 @@
 
 .images {
 	margin-top: 40px;
-	margin-left: 50px;
+	margin-left: 15px;
 }
 
 .images img {
-	border-style: solid;
-	border-color: #73ff00;
-	border-width: 3px;
-	width: 380px;
-	height: 380px;
+	width: 200px;
+	height: 200px;
 	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
 }
 
 .images img:hover {
-	border-color: #308f00;
 	transition-duration: 0.6s;
-	transform: rotateY(360deg);
+	transform: rotateY(180deg);
 	-webkit-transition-duration: 0.6s;
-	-webkit-transform: rotateY(360deg);
+	-webkit-transform: rotateY(180deg);
 }
 
 .list {
@@ -142,7 +138,7 @@
 	position: relative;
 	bottom: 240px;
 	left: 330px;
-	margin-right: 25%;
+	margin-right: 26%;
 }
 
 .wrapper a {
@@ -157,7 +153,8 @@
 	padding: 5px 30px;
 }
 
-.footer p {
+.footer p, a {
+	text-decoration: none;
 	font-family: arial;
 	font-size: 16px;
 	color: white;
@@ -167,4 +164,12 @@
 	float: right;
 	display: inline;
 	margin-top: -35px;
+}
+
+.footer a:hover {
+	color: #73ff00;
+}
+
+.footer i {
+	margin-right: 10px;
 }
