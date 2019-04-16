@@ -97,6 +97,9 @@
 	width: 1200px;
 	height: 400px;
 	margin-left: 30px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #17496b;
 }
 
 .images {
@@ -356,6 +359,7 @@
 }
 
 @media screen and (max-width: 768px) {
+
 	.bg {
 		width: auto;
 		background-size: 120% 100%;
@@ -400,8 +404,42 @@
 		position: static;
 		margin-left: 10px;
 		margin-right: 10px;
-	}	
+	}
+
+	.main-page-content-text {
+		font-size: 11px;
+	}
+
+	.main-page-header {
+		font-size: 15px;
+	}
+
+	.list {
+		font-size: 11px;
+	}
+
+	.wrapper {
+		margin: 0;
+	}
+
+	.topbar {
+		margin: 0;
+	}
+
+	.header {
+		margin: 0;
+	}
+
+	.footer {
+		margin: 0;
+	}
+
+	.footer p {
+		display: none;
+	}
+
+	.footer .contact {
+		font-size: 11px;
+	}
 }
-
-
 
